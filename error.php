@@ -1,0 +1,11 @@
+<?php
+  $code = '404';
+  $msg = 'Page Not Found';
+  if (isset($_GET)) {
+    if (!empty($_GET['code']) && !empty($_GET['msg'])) {
+      $code = $_GET['code'];
+      $msg = $_GET['msg'];
+    }
+  }
+?>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="follow, index"><meta name="theme-color" content="#ffac00"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/manifest.webmanifest"><title>Oops!</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&amp;display=swap" rel="stylesheet"><link href="assets/css/7bd407b85c95efc6545b.css?63693e057894236878e3" rel="stylesheet"></head><body data-theme="default"><noscript class="noscript"><div class="noscript__wrapper"><div class="noscript--img"></div><h3 class="noscript--heading">Oops! JavaScript Disabled</h3><p class="noscript--msg">JavaScript is disabled on your browser. For full functionality of this website, it is necessary to enable it. Here are the instructions on how to&nbsp;<a class="noscript--a" href="https://enablejavascript.xyz" target="_blank">Enable JavaScript</a>&nbsp;in your web browser.</p></div></noscript><section class="section--error"><span class="code"><?php echo $code; ?></span><div class="error"><h3 class="error--label"><?php echo $msg; ?></h3><p class="error--msg">The page you are looking for doesn't exist, has been removed, is temporarily unavailable, or you may not be authorized to access the page.</p><a class="error--link" href="index">Go to Home</a></div></section></body></html>
