@@ -40,20 +40,24 @@
             </svg>
             <div class="navbar__wrapper--menu" id="menuToggleMenu">
                 <ul class="navigation">
-                    <li class="navigation--li"><a class="navigation--li-a" href="index" hreflang="en">Home</a></li>
-                    <li class="navigation--li"><a class="navigation--li-a" href="aboutus" hreflang="en">About Us</a>
-                    </li>
-                    <li class="navigation--li"><a class="navigation--li-a" href="pricing" hreflang="en">Pricing</a></li>
+                    <!-- <li class="navigation--li"><a class="navigation--li-a" href="/" hreflang="en">Home</a></li>
+                    <li class="navigation--li"><a class="navigation--li-a" href="aboutus" hreflang="en">About Us</a> -->
+                    <!-- </li> -->
+                    <!-- <li class="navigation--li"><a class="navigation--li-a" href="pricing" hreflang="en">Pricing</a></li> -->
+                    <li class="navigation--li"><a class="navigation--li-a" href="whyus" hreflang="en">Why Us?</a></li>
                     <li class="navigation--li"><a class="navigation--li-a" href="testimonials"
                             hreflang="en">Testimonials</a></li>
-                    <li class="navigation--li"><a class="navigation--li-a" href="ourexperts" hreflang="en">Our
-                            Experts</a></li>
-                    <li class="navigation--li"><a class="navigation--li-a" href="resources" hreflang="en">Resources</a>
+                    <li class="navigation--li"><a class="navigation--li-a" href="business" hreflang="en">For
+                            Businesses</a>
                     </li>
-                    <li class="navigation--li"><a class="navigation--li-a" href="contact" hreflang="en">Contact Us</a>
+                    <li class="navigation--li"><a class="navigation--li-a" href="universities" hreflang="en">For
+                            Universities</a>
                     </li>
-                    <li class="navigation--li"><a class="navigation--li-a" href="whyus" hreflang="en">Why Us?</a></li>
                 </ul>
+
+                <!-- <li class="navigation--li"><a class="navigation--li-a" href="contact" hreflang="en">Contact Us</a>
+                    </li> -->
+
                 <ul class="navbuttons">
                     <li class="navbuttons--li"><a class="navbuttons--li-a btn--secondary btn--grad-green br--lg" href=""
                             hreflang="en" target="_blank">Get Started</a></li>
